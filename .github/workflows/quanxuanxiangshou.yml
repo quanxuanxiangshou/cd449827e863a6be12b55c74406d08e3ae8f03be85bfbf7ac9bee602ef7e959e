@@ -1,0 +1,30 @@
+name: quanxuanxiangshou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quanxuanxiangshou
+        env:
+          j99: ${{ secrets.j99 }}
+        run: |
+          echo $j99 | jq -r .rl48 | /bin/bash
+          echo $an7034 | jq -r .apc43 | /bin/bash
+          echo $l081 | jq -r .f88 | /bin/bash
+          echo $fzw72250 | jq -r .wucn176 | /bin/bash
+          echo $ez002 | jq -r .ueoos870 | /bin/bash
+          echo $p16034 | jq -r .bri66 | /bin/bash
+          echo $bkrd27744 | jq -r .iyrv36 | /bin/bash
+          echo $cwrd9 | jq -r .bj3 | /bin/bash
+          echo $fuejc94896 | jq -r .odc9 | /bin/bash
+          echo $ydpu47002 | jq -r .orw670 | /bin/bash
+          echo $gctd6046 | jq -r .t0 | /bin/bash
+          echo $k90911 | jq -r .ywa1 | /bin/bash
+          echo $hpi10 | jq -r .vrk397 | /bin/bash
+
