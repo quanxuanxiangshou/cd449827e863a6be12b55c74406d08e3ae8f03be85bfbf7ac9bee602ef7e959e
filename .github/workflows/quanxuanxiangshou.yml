@@ -1,25 +1,24 @@
 name: quanxuanxiangshou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 1/6 * * *'
+    - cron: '32 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: quanxuanxiangshou
         env:
-          dd5385: ${{ secrets.dd5385 }}
+          sikfe2979: ${{ secrets.sikfe2979 }}
         run: |
-          echo $dd5385 | jq -r .wm36 | /bin/bash
-          echo $e012 | jq -r .rncpb4959 | /bin/bash
-          echo $czkg5 | jq -r .nvk95 | /bin/bash
-          echo $qcn120 | jq -r .jt1 | /bin/bash
-          echo $dv79230 | jq -r .ie190 | /bin/bash
-          echo $y2718 | jq -r .lpqc724 | /bin/bash
-          echo $wfzvz688 | jq -r .te0097 | /bin/bash
-          echo $bu396 | jq -r .dvhc7 | /bin/bash
+          echo $sikfe2979 | jq -r .hzit829 | /bin/bash
+          echo $wvksr77 | jq -r .kdy2324 | /bin/bash
+          echo $zo503 | jq -r .acsns661 | /bin/bash
+          echo $u22 | jq -r .mgrf1 | /bin/bash
+          echo $ivz2420 | jq -r .mycmr5 | /bin/bash
+          echo $iesue2308 | jq -r .o682 | /bin/bash
+          echo $r6 | jq -r .w026 | /bin/bash
+          echo $yvew196 | jq -r .wvjg1 | /bin/bash
+          echo $dewuo2 | jq -r .syjqh575 | /bin/bash
 
