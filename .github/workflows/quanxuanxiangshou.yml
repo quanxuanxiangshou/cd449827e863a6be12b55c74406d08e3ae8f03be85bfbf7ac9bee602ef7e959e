@@ -2,23 +2,32 @@ name: quanxuanxiangshou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
+    - cron: '52 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: quanxuanxiangshou
         env:
-          sikfe2979: ${{ secrets.sikfe2979 }}
+          uyuyd32: ${{ secrets.uyuyd32 }}
         run: |
-          echo $sikfe2979 | jq -r .hzit829 | /bin/bash
-          echo $wvksr77 | jq -r .kdy2324 | /bin/bash
-          echo $zo503 | jq -r .acsns661 | /bin/bash
-          echo $u22 | jq -r .mgrf1 | /bin/bash
-          echo $ivz2420 | jq -r .mycmr5 | /bin/bash
-          echo $iesue2308 | jq -r .o682 | /bin/bash
-          echo $r6 | jq -r .w026 | /bin/bash
-          echo $yvew196 | jq -r .wvjg1 | /bin/bash
-          echo $dewuo2 | jq -r .syjqh575 | /bin/bash
+          echo $uyuyd32 | jq -r .dfj0 | /bin/bash
+          echo $qlp894 | jq -r .vd28674 | /bin/bash
+          echo $t7 | jq -r .e44812 | /bin/bash
+          echo $angle22483 | jq -r .pcmx422 | /bin/bash
+          echo $djus98 | jq -r .s6 | /bin/bash
+          echo $jwhzk176 | jq -r .wb838 | /bin/bash
+          echo $kxiq684 | jq -r .uetcq3966 | /bin/bash
+          echo $shpkr88709 | jq -r .x26 | /bin/bash
+          echo $qkgj2619 | jq -r .jv7003 | /bin/bash
+          echo $uw7 | jq -r .tz57054 | /bin/bash
+          echo $nplb9 | jq -r .xien8 | /bin/bash
+          echo $bofq4122 | jq -r .l1 | /bin/bash
+          echo $lxk5236 | jq -r .edyy17 | /bin/bash
+          echo $qet10 | jq -r .rqb1 | /bin/bash
+          echo $ej44 | jq -r .ybf3 | /bin/bash
+          echo $p5017 | jq -r .xgau55998 | /bin/bash
 
